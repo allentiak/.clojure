@@ -236,9 +236,9 @@
                 "-f" "rebel-readline.main/-main"]}
 
   :repl/rebel-debug-refactor
-  {:extra-deps {nrepl/nrepl                   {:mvn/version "1.0.0"}
-                cider/cider-nrepl             {:mvn/version "0.31.0"}
-                refactor-nrepl/refactor-nrepl {:mvn/version "3.6.0"}
+  {:extra-deps {nrepl/nrepl                   {:mvn/version "1.1.0"}
+                cider/cider-nrepl             {:mvn/version "0.45.0"}
+                refactor-nrepl/refactor-nrepl {:mvn/version "3.9.1"}
                 com.billpiel/sayid            {:mvn/version "0.1.0"}
                 com.bhauman/rebel-readline    {:mvn/version "0.1.4"}}
    :main-opts  ["-e" "(apply require clojure.main/repl-requires)"
@@ -249,8 +249,8 @@
 
   :repl/reloaded-debug
   {:extra-paths ["dev" "test"]
-   :extra-deps {nrepl/nrepl                  {:mvn/version "1.0.0"}
-                cider/cider-nrepl            {:mvn/version "0.31.0"}
+   :extra-deps {nrepl/nrepl                  {:mvn/version "1.1.0"}
+                cider/cider-nrepl            {:mvn/version "0.45.0"}
                 com.bhauman/rebel-readline   {:mvn/version "0.1.4"}
                 com.billpiel/sayid           {:mvn/version "0.1.0"}
                 djblue/portal                {:mvn/version "0.42.1"}   ; portal data inspector
@@ -261,7 +261,7 @@
                 com.brunobonacci/mulog       {:mvn/version "0.9.0"}
                 lambdaisland/kaocha          {:mvn/version "1.85.1342"}
                 org.clojure/test.check       {:mvn/version "1.1.1"}
-                refactor-nrepl/refactor-nrepl {:mvn/version "3.6.0"}
+                refactor-nrepl/refactor-nrepl {:mvn/version "3.9.1"}
                 ring/ring-mock               {:mvn/version "0.4.0"}
                 criterium/criterium          {:mvn/version "0.4.6"}}
    :main-opts  ["-e" "(apply require clojure.main/repl-requires)"
